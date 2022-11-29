@@ -1,0 +1,266 @@
+.header {
+    width: 100%;
+    height: 8.8rem;
+    background-color: var(--background-blue);
+}
+
+.header .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container .logo{
+    width: 100%;
+    margin-top: 1rem;
+    max-width: 6rem;
+}
+
+.header .container .navbar{
+    display: flex;
+    align-items: center;   
+}
+
+.header .container .navbar ul{
+    display: flex;
+    align-items: center;   
+}
+
+.header .container .menu-item_mobile{
+    display: none;
+}
+
+
+.se-hero{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    padding: 7.2rem 0px;
+    background-color: var(--bg-white);
+}
+
+.se-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.se-hero .text{
+    width: 100%;
+    max-width: 60rem;
+}
+
+.se-hero .text p{
+    width: 100%;
+    max-width: 48.8rem;
+    margin-top: 2rem;
+    margin-bottom: 5.6rem;
+}
+
+.se-hero .text .image{
+    width: 100%;
+    max-width: 49.1rem;
+}
+
+
+.se-info{
+    background-color: var(--background-blue);
+    padding-top: 10.4rem ;
+    padding-bottom: 12.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+
+.se-info .title.center{
+    text-align: center;
+}
+
+.se-info .all-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;   
+}
+
+.se-info .all-cards .card{
+    width: 100%;
+    max-width: 38.4rem;
+    height: 38.2rem;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6.4rem;
+    transition: all .3s;    
+}
+
+.se-info .all-cards .card:hover{
+    background-color: var(--hover-card);
+    transform: scale(1.05);
+}
+
+.all-cards .icon img{
+    width: 10.5rem;
+    max-width: 100%;
+}
+
+.all-cards .info{
+    margin-top: 4rem;
+    max-width: 28rem;
+}
+.all-cards .info h3{
+    text-align: center;
+    color: var(--black-text);
+    font-weight: 600;
+}
+.all-cards .info p{
+    color: var(--black-para);
+    text-align: center;
+    margin-top: 0.8rem;
+    line-height: 150%;
+}
+
+.main-area .btn-info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10rem;
+    align-items: center;
+}
+
+
+.roadmap{
+    padding-top: 10.4rem ;
+    padding-bottom: 12.2rem;
+    background-color: var(--bg-white);
+}
+
+
+.roadmap .title.center{
+    text-align: center;
+}
+
+.roadmap .title.center h2{
+    color: var(--black-text);
+    font-weight: 600;
+}
+
+.roadmap .all-cards-roadmap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;   
+}
+
+.roadmap .all-cards-roadmap .card{
+    width: 100%;
+    max-width: 23.8rem;
+    height: 29.9rem;
+    background-color: var(--background-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6.4rem;    
+    border-radius: 20px;
+}
+
+
+.all-cards-roadmap .list{
+    max-width: 308px;
+    color: var(--white);
+    padding-left: 2rem;
+}
+
+.all-cards-roadmap .list .roadmap-list li{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    list-style: circle;
+}
+
+.all-cards-roadmap .card:first-child{
+    margin-top: 22.1rem;
+}
+
+.all-cards-roadmap .card:nth-child(2){
+    margin-top: 15.6rem;
+}
+
+.all-cards-roadmap .card:nth-child(3){
+    margin-top: 9rem;
+}
+
+
+
+
+.footer{
+    background-color: var(--background-blue);
+    padding-top: 8.8rem;
+}
+
+.footer main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 7.2rem;
+}
+
+.footer main .area-left{
+    max-width: 28.1rem;
+}
+
+.footer main .area-left img{
+    max-width: 20rem;
+}
+
+.footer main .area-left p{
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--text);
+    margin-top: 3.5rem;
+}
+
+.footer main nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+}
+
+.footer main nav .item h6{
+     font-family: 'Sora', sans-serif;
+     font-weight: 600;
+     line-height: 125%;
+     letter-spacing: -1px;
+     color: var(--white);
+     margin-bottom: 2.4rem;
+}
+
+.footer main nav .item ul li{
+    margin-bottom: 3.2rem;
+    transition: all .3s;
+}
+
+.footer main nav .item ul li:hover{
+    padding-left: 1rem;
+}
+
+.footer main nav .item ul li:last-child{
+    margin-bottom: 0;
+}
+
+.footer main nav .item ul li a{
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(--hover-card);
+}
+
+.footer main nav .item:last-child ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.footer main nav .item:last-child ul li a span{
+    margin-left: 0.8rem;
+}
